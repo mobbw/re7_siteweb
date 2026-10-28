@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 15px;
-    background-color: burlywood;
+    padding: 10px 0 10px 0;
 }
 
 .affichage_pictogrammes img {
@@ -46,9 +46,13 @@ body {
 
 .afficher_recette {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
     align-items: center;
     padding: 15px 0 10px 0;
+}
+
+.afficher_recette img {
+    width: 50px;
 }
 
 .image_recette {
@@ -77,4 +81,8 @@ footer {
 .border {
     border: dashed 1px gray;
     border-collapse: collapse;
+}
+
+.fondrose {
+    background-color: rgb(255, 173, 173);
 }
