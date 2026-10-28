@@ -32,3 +32,11 @@
     position: sticky;
     top: 0;
 }
+
+header {
+    background-color: brown;
+}
+
+footer {
+    background-color: brown;
+}
