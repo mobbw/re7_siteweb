@@ -27,12 +27,6 @@ body {
   width: 50%;
 }
 
-.presentation_recette h1 {
-  color: rgb(214, 6, 75);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  font-weight: bold;
-}
-
 .presentation_recette h1,
 h3,
 p {
@@ -214,6 +208,11 @@ h2 {
   color: rgb(234, 186, 252);
 }
 
+.padding h2,
+i {
+  padding: 15px;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -318,16 +317,11 @@ body {
   font-size: 1.05rem;
 }
 
-.padding h2,
-i {
-  padding: 15px;
-}
-
 .txt {
   margin: 50px;
 }
 
-.bisous {
+.titre2 {
   padding: 30px 30px 30px 30px;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -336,13 +330,12 @@ i {
 
 .colortxt {
   color: rgb(247, 219, 232);
-  text-decoration:
 }
 .carousel-item img {
   width: 100%;
   aspect-ratio: 1 / 1;
-  object-fit: cover;  
-  transition: transform 0.5s ease;   
+  object-fit: cover;
+  transition: transform 0.5s ease;
 }
 
 .carousel-item img:hover {
@@ -350,5 +343,4 @@ i {
 }
 
 @media (width < 510px) {
-
 }
