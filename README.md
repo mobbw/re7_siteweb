@@ -2,7 +2,7 @@
 
 > *La gourmandise se partage !*
 
-RE7 est une maquette de site web de recettes de desserts **dans le cadre d'un projet en développement web.** Chaque recette est présentée de façon visuelle : pictogrammes pour le prix, la difficulté, le temps de préparation et les calories, liste d'ingrédients illustrée et étapes détaillées.
+RE7 est une maquette de site web de recettes de desserts **dans le cadre d'un projet en développement web (très inspiré du site jow.fr).** Chaque recette est présentée de façon visuelle : pictogrammes pour le prix, la difficulté, le temps de préparation et les calories, liste d'ingrédients illustrée et étapes détaillées.
 
 ---
 
