@@ -27,12 +27,6 @@ body {
   width: 50%;
 }
 
-.presentation_recette h1 {
-  color: rgb(214, 6, 75);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  font-weight: bold;
-}
-
 .presentation_recette h1,
 h3,
 p {
@@ -86,11 +80,11 @@ p {
 
 .ingredients {
   overflow: auto;
-  justify-content: center; 
+  justify-content: center;
 }
 
 header {
-  background-color: pink; 
+  background-color: pink;
   padding: 15px 40px;
   position: sticky;
   z-index: 1000;
@@ -139,8 +133,7 @@ footer {
   display: flex;
   background-color: pink;
   text-align: center;
-  margin-top: 50px;
-  padding: 15px 15px 15px 15px;
+  margin-top: 200px;
 }
 
 .border {
@@ -209,6 +202,11 @@ td {
 
 h2 {
   text-align: center;
+}
+
+.padding h2,
+i {
+  padding: 15px;
 }
 
 .logo {
@@ -315,15 +313,12 @@ body {
   font-size: 1.05rem;
 }
 
-.padding h2,
-i {
-  padding: 15px;
-}
-
 .txt {
   margin: 50px;
 }
 
-.bisous {
+.titre2 {
   padding: 30px 30px 30px 30px;
 }
+
+@media screen;
