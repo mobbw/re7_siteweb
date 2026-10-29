@@ -3,22 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>RE7</title>
   </head>
   <body>
     <header>
     </header>
-    <div class="container"></div>
+    <div class="container">
          <nav>
             <ul>
-                <a href="#recette" class="gauche">Recettes</a>
-                <a href="#blog" class="droite">BLOG</a>
-                <a href="#connexion" class="droite">Connexion</a>
-                <a href="#recherche" class="droite">Rechercher</a>
+                <div class="gauche"><a href="#recette">Recettes</a></div>
+                <a href="#recherche">Rechercher</a>
+                <a href="#blog">BLOG</a>
+                <a href="#connexion">Connexion</a>
+               
             </ul>
         </nav>
-        <p class="center">RE7</p>
+    </div>
+        <img src="assets/Logo_RE7_avec_toque_de_chef.svg" alt="logo RE7" height="100px"/>
         <main>
         <div class="accueil"></div>
         <img src="projet-img/accueil.jpg"alt="accueil">
@@ -27,16 +32,18 @@
         <section>
         <ul>
             <h2 id="liste">Liste de recettes :</h2>
-            <a href="recette1.html" class="nom">Crepes</a>
-            <a href="#recette2.html" class="nom">Fondant au chocolat</a>
-            <a href="#eclair" class="nom">Eclair au chocolat</a>
-            <a href="tarte" class="nom">Tarte a la fraise</a>
+            <div class="nom">
+            <a href="recette1.html">Crepes</a>
+            <a href="#recette2.html">gateau a la fraise</a>
+            <a href="#eclair">Macarons</a>
+            <a href="cupcake">Cupcake</a>
+            </div>
         </ul>
         <div class="image">
-            <img src="projet-img/crepe.jpg"alt="crepe">
-            <img src="projet-img/tarte.jpg"alt="tarte">
-            <img src="projet-img/eclair.jpg"alt="eclair">
-            <img src="projet-img/fondant.jpg"alt="fondant">
+            <img src="assets/crepe.png"alt="crepe">
+            <img src="assets/gateau.png"alt="gateau a la fraise">
+            <img src="assets/macaron.png"alt="macaron">
+            <img src="assets/cupcake.png"alt="cupcake">
         </div>
         </section>
         </main>
