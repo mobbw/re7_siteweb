@@ -96,12 +96,12 @@ p {
 }
 
 header {
-  background-color: brown;
+  background-color: pink;
   padding: 15px;
 }
 
 footer {
-  background-color: brown;
+  background-color: pink;
   text-align: center;
 }
 
@@ -125,6 +125,15 @@ footer {
   justify-content: flex-end;
 }
 
-.image {
+.image img {
   height: 100px;
+}
+
+h1 {
+  color: pink;
+  box-shadow: 2cm;
+}
+
+main {
+  height: 50px;
 }
