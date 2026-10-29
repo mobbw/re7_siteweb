@@ -96,16 +96,14 @@ p {
 }
 
 header {
-<<<<<<< HEAD
-  background-color: rgb(236, 57, 117);
-=======
-  background-color: pink;
->>>>>>> 5c4f0bd0798ae3b7be4edcb4553cc12e18d6e223
+  background-color: rgb(227, 143, 171);
   padding: 15px;
   position: sticky;
   display: flex;
   top: 0;
   justify-content: center;
+  height: 150px;
+  width: auto;
 }
 
 footer {
@@ -157,26 +155,8 @@ td {
   padding: 1em;
 }
 
-.banner { 
-  height: 130px;
-  width: 1650px;
-  background-color: rgb(219, 139, 166);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: sticky;
-  top: 0;
-  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-}
-
 h2 {
   text-align: center;
-}
-
-.logo {
-  height: 100px;
 }
 
 .italique {
@@ -192,4 +172,47 @@ h2 {
   display: flex;
   justify-content: space-around;
   font-family: "Short Stack", sans-serif;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.mission {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #030003;
+    line-height: 1.8;
+}
+
+.mission h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #8b4513;
+}
+
+.mission h2 {
+    font-size: 1.7rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #b56576;
+}
+
+.mission p {
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+}
+
+.notebook {
+    background-image: url("assets/notebook.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    min-height: 1000px;
+    padding: 40px;
+    box-sizing: border-box;
 }
