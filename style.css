@@ -76,8 +76,13 @@ p {
   top: 0;
 }
 
+.ingredients {
+  overflow: auto;
+  justify-content: center; 
+}
+
 header {
-  background-color: pink;
+  background-color: pink; 
   padding: 15px 40px;
   position: sticky;
   top: 0;
