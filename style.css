@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Short+Stack&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Short+Stack&display=swap");
 
 * {
   margin: 0;
@@ -9,10 +8,13 @@ body {
   margin: 0;
 }
 
-
 nav a {
   text-decoration: none;
   color: inherit;
+}
+
+nav img {
+  width: 5rem;
 }
 
 nav a:hover {
@@ -94,15 +96,20 @@ p {
 }
 
 header {
+<<<<<<< HEAD
   background-color: rgb(236, 57, 117);
+=======
+  background-color: pink;
+>>>>>>> 5c4f0bd0798ae3b7be4edcb4553cc12e18d6e223
   padding: 15px;
   position: sticky;
   display: flex;
   top: 0;
+  justify-content: center;
 }
 
 footer {
-  background-color: brown;
+  background-color: pink;
   text-align: center;
 }
 
@@ -122,12 +129,20 @@ footer {
 
 .container nav {
   display: flex;
-
   justify-content: flex-end;
 }
 
-.image {
+.image img {
   height: 100px;
+}
+
+h1 {
+  color: pink;
+  box-shadow: 2cm;
+}
+
+main {
+  height: 50px;
 }
 table {
   border-collapse: collapse;
@@ -142,6 +157,7 @@ td {
   padding: 1em;
 }
 
+<<<<<<< HEAD
 .banner { 
   height: 130px;
   width: 1650px;
@@ -156,15 +172,15 @@ td {
   justify-content: center;
 }
 
+=======
+>>>>>>> 5c4f0bd0798ae3b7be4edcb4553cc12e18d6e223
 h2 {
   text-align: center;
 }
 
 .logo {
-  display: flex;
-  justify-content: center;
+  height: 100px;
 }
-
 
 .italique {
   text-align: center;
