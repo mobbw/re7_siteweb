@@ -9,6 +9,18 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>RE7</title>
   </head>
@@ -51,15 +63,67 @@
           <a href="cupcake">Cupcake</a>
         </div> -->
       </ul>
-      <div class="image">
-        <a href="recette1.html" alt="ImageCrepe" target="_blank">
-          <img src="assets/crepe2.png" alt="crepe"
-        /></a>
-        <a href="recette2.html" alt="ImageGateau" target="_blank"
-          ><img src="assets/gateau.png" alt="gateau a la fraise"
-        /></a>
-        <img src="assets/macaron.png" alt="macaron" />
-        <img src="assets/cupcake.png" alt="cupcake" />
+      <div
+        id="carouselMultiple"
+        class="carousel slide"
+        data-bs-ends="stop"
+        style="--bs-carousel-items: 3; --bs-carousel-items-gap: 1rem"
+      >
+        <div class="d-flex justify-content-between align-items-center">
+          <!-- <h5 class="mb-0">Three at a time</h5> -->
+          <div>
+            <button
+              class="btn-icon btn-sm"
+              type="button"
+              data-bs-target="#carouselMultiple"
+              data-bs-slide="prev"
+              style="--bs-carousel-control-icon-width: 1rem"
+            >
+              <span class="carousel-icon-prev" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="btn-icon btn-sm"
+              type="button"
+              data-bs-target="#carouselMultiple"
+              data-bs-slide="next"
+              style="--bs-carousel-control-icon-width: 1rem"
+            >
+              <span class="carousel-icon-next" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="recette1.html"><img
+              src="assets/crepe2.png"
+              class="d-block w-100 rounded-5"
+              alt="image crepe"
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a href="recette2.html"><img
+              src="assets/gateau.png"
+              class="d-block w-100 rounded-5"
+              alt="image gateau"
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/macaron.png"
+              class="d-block w-100 rounded-5"
+              alt="image macaron"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/cupcake.png"
+              class="d-block w-100 rounded-5"
+              alt="image cupcake"
+            />
+          </div>
+        </div>
       </div>
     </main>
     <footer>

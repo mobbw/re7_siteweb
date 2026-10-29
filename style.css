@@ -127,13 +127,16 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 3rem;
+  color: #030003;
 }
 
 footer {
   display: flex;
   background-color: pink;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 50px;
+  padding: 15px 15px 15px 15px;
+  color: #030003;
 }
 
 .border {
@@ -319,6 +322,21 @@ body {
 
 .titre2 {
   padding: 30px 30px 30px 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
 }
 
-@media screen;
+.carousel-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.02);
+}
+
+@media (width < 510px) {
+}
