@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Short+Stack&display=swap');
+
+
+.recette {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.presentation_recette {
+  width: 50%;
+}
+
+.affichage_pictogrammes {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  margin-top: 15px;
+  background-color: burlywood;
+}
+
+.recette figure {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image_recette {
+  width: 50%;
+  background-color: antiquewhite;
+}
+
+.image_recette img {
+  width: 100%;
+  height: auto;
+  position: sticky;
+  top: 0;
+}
+
+footer {
+  background-color: brown;
+}
+
+.border {
+  border: dashed 1px rgb(232, 8, 8);
+}
+
+table {
+  border-collapse: collapse;
+  border: solid, 2px, black;
+  width: 15%;
+}
+
+th,
+td {
+  border: solid, 1px, black;
+  background-color: rgba(211, 211, 211, 0);
+  padding: 1em;
+}
+
+.banner,
+header {
+  height: 200px;
+  background-image: url("assets/Table\ gourmande\ autour\ d’une\ planche\ en\ bois.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
+}
+
+h2 {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+
+.italique {
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.txt {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Short Stack", sans-serif;
+}
