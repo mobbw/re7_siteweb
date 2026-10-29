@@ -6,6 +6,27 @@ body {
     margin: 0;
 }
 
+header {
+    position: sticky;
+    display: flex;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
 .recette {
     display: flex;
     flex-direction: row;
