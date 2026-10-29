@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Short+Stack&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Short+Stack&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   font-family: "Lato";
@@ -173,7 +173,7 @@ footer {
 }
 
 h1 {
-  color: rgb(245, 196, 213);
+  color: rgb(38, 1, 23);
   box-shadow: 2cm;
 }
 
@@ -205,7 +205,7 @@ td {
 
 h2 {
   text-align: center;
-  color: rgb(234, 186, 252);
+  color: rgb(50, 4, 50);
 }
 
 .padding h2,
@@ -319,6 +319,7 @@ body {
 
 .txt {
   margin: 50px;
+
 }
 
 .titre2 {
@@ -328,14 +329,18 @@ body {
   font-weight: bold;
 }
 
-.colortxt {
-  color: rgb(247, 219, 232);
+.gentxt {
+  color: rgb(89, 2, 45);
+  background-color: pink  ;
+  padding: 30px;
+  border-radius: 5%;
+  
 }
 .carousel-item img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease; 
 }
 
 .carousel-item img:hover {
@@ -344,3 +349,9 @@ body {
 
 @media (width < 510px) {
 }
+
+.colone {
+  background-image: url(assets/fonds.jpg);
+  height:auto;
+}
+
