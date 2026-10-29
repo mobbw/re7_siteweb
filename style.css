@@ -8,25 +8,6 @@ body {
   margin: 0;
 }
 
-nav a {
-  text-decoration: none;
-  color: inherit;
-}
-
-nav img {
-  width: 5rem;
-}
-
-nav a:hover {
-  color: blueviolet;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 3rem;
-}
-
 .recette {
   display: flex;
   flex-direction: row;
@@ -97,15 +78,45 @@ p {
 
 header {
   background-color: pink;
-  padding: 15px;
+  padding: 15px 40px;
   position: sticky;
-  display: flex;
   top: 0;
-  justify-content: center;
 }
 
-header img {
+.header_contain {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+.header_gauche ul {
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.header_droite ul {
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.header_image img {
   height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  color: rgb(226, 83, 43);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
 }
 
 footer {
@@ -139,10 +150,6 @@ footer {
 h1 {
   color: pink;
   box-shadow: 2cm;
-}
-
-main {
-  height: 50px;
 }
 
 table {
