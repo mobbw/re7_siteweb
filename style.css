@@ -17,6 +17,10 @@ nav a {
   color: inherit;
 }
 
+nav img {
+  width: 5rem;
+}
+
 nav a:hover {
   color: blueviolet;
 }
