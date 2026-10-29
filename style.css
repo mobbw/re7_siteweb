@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Short+Stack&display=swap");
+
 * {
   margin: 0;
 }
@@ -6,15 +8,13 @@ body {
   margin: 0;
 }
 
-header {
-  position: sticky;
-  display: flex;
-  top: 0;
-}
-
 nav a {
   text-decoration: none;
   color: inherit;
+}
+
+nav img {
+  width: 5rem;
 }
 
 nav a:hover {
@@ -98,6 +98,9 @@ p {
 header {
   background-color: pink;
   padding: 15px;
+  position: sticky;
+  display: flex;
+  top: 0;
 }
 
 footer {
@@ -136,4 +139,59 @@ h1 {
 
 main {
   height: 50px;
+}
+table {
+  border-collapse: collapse;
+  border: solid, 2px, black;
+  width: 15%;
+}
+
+th,
+td {
+  border: solid, 1px, black;
+  background-color: rgba(211, 211, 211, 0);
+  padding: 1em;
+}
+
+.banner {
+  height: 200px;
+  background-image: url("assets/Table\ gourmande\ autour\ d’une\ planche\ en\ bois.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+header {
+  background-color: brown;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.italique {
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.txt {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Short Stack", sans-serif;
 }
