@@ -94,7 +94,7 @@ p {
 }
 
 header {
-  background-color: brown;
+  background-color: rgb(236, 57, 117);
   padding: 15px;
   position: sticky;
   display: flex;
@@ -143,8 +143,9 @@ td {
 }
 
 .banner { 
-  height: 200px;
-  background-image: url("assets/Table\ gourmande\ autour\ d’une\ planche\ en\ bois.png");
+  height: 130px;
+  width: 1650px;
+  background-color: rgb(219, 139, 166);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -153,13 +154,6 @@ td {
   box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
-}
-  header {
-  background-color: brown;
-  padding: 15px;
-  position: sticky;
-  top: 0;
-  
 }
 
 h2 {
