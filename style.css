@@ -224,7 +224,7 @@ h2 {
 
 .accueil img {
   width: 100%;
-  height: 80vh;
+  height: 85vh;
   object-fit: cover;
   display: block;
   object-position: center;
@@ -249,4 +249,10 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+}
+
+.texte {
+  position: absolute;
+  top: 50%;
+  left: 5%;
 }
