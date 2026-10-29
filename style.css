@@ -9,7 +9,6 @@ body {
   margin: 0;
 }
 
-
 nav a {
   text-decoration: none;
   color: inherit;
@@ -98,11 +97,13 @@ p {
 }
 
 header {
-  background-color: brown;
-  padding: 15px;
+  background-color: #FCE4BC;
+  padding: 1px;
+  height: 5rem;
   position: sticky;
   display: flex;
   top: 0;
+  justify-content: center;
 }
 
 footer {
@@ -126,7 +127,6 @@ footer {
 
 .container nav {
   display: flex;
-
   justify-content: flex-end;
 }
 
@@ -146,33 +146,12 @@ td {
   padding: 1em;
 }
 
-.banner { 
-  height: 200px;
-  background-image: url("assets/Table\ gourmande\ autour\ d’une\ planche\ en\ bois.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: sticky;
-  top: 0;
-  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-}
-  header {
-  background-color: brown;
-  padding: 15px;
-  position: sticky;
-  top: 0;
-  
-}
-
 h2 {
   text-align: center;
 }
 
 .logo {
-  display: flex;
-  justify-content: center;
+  height: 100px;
 }
 
 
