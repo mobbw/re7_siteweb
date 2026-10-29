@@ -86,11 +86,11 @@ p {
 
 .ingredients {
   overflow: auto;
-  justify-content: center; 
+  justify-content: center;
 }
 
 header {
-  background-color: pink; 
+  background-color: pink;
   padding: 15px 40px;
   position: sticky;
   z-index: 1000;
@@ -177,7 +177,7 @@ footer {
 }
 
 h1 {
-  color: palevioletred;
+  color: rgb(245, 196, 213);
   box-shadow: 2cm;
 }
 
@@ -193,7 +193,7 @@ td {
   background-color: rgba(211, 211, 211, 0);
   padding: 1em;
 }
-
+  
 .banner {
   height: 200px;
   background-image: url("assets/Table\ gourmande\ autour\ d’une\ planche\ en\ bois.png");
@@ -209,6 +209,7 @@ td {
 
 h2 {
   text-align: center;
+  color: rgb(234, 186, 252);
 }
 
 .logo {
@@ -311,7 +312,7 @@ body {
   color: rgb(226, 83, 43);
 }
 
-.mission p {
+.mission p{
   font-size: 1.05rem;
 }
 
@@ -326,4 +327,9 @@ i {
 
 .bisous {
   padding: 30px 30px 30px 30px;
+}
+
+.colortxt {
+  color: rgb(247, 219, 232);
+  text-decoration: ;
 }
