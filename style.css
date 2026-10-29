@@ -44,7 +44,7 @@ nav ul {
     width: 50%;
 }
 
-.presentation_recette h2, h3, p {
+.presentation_recette h1, h3, p {
     text-align: center;
     padding: 15px 0 15px 0;
 }
