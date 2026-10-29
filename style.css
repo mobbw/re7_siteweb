@@ -96,16 +96,16 @@ p {
 }
 
 header {
-<<<<<<< HEAD
-  background-color: rgb(236, 57, 117);
-=======
   background-color: pink;
->>>>>>> 5c4f0bd0798ae3b7be4edcb4553cc12e18d6e223
   padding: 15px;
   position: sticky;
   display: flex;
   top: 0;
   justify-content: center;
+}
+
+header img {
+  height: 50px;
 }
 
 footer {
@@ -144,6 +144,7 @@ h1 {
 main {
   height: 50px;
 }
+
 table {
   border-collapse: collapse;
   border: solid, 2px, black;
@@ -157,26 +158,8 @@ td {
   padding: 1em;
 }
 
-.banner { 
-  height: 130px;
-  width: 1650px;
-  background-color: rgb(219, 139, 166);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: sticky;
-  top: 0;
-  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-}
-
 h2 {
   text-align: center;
-}
-
-.logo {
-  height: 100px;
 }
 
 .italique {
